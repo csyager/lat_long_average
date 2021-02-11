@@ -1,0 +1,5 @@
+env
+loc_list
+__pycache__
+conf.py
+.vscode
