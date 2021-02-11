@@ -1,8 +1,8 @@
 import sys
 import requests
 import json
+from conf import maps_api_key
 
-maps_api_key = 'AIzaSyDejH2Pp0Ff7BkcFWYEvTokXw8-Fkva7Y8'
 url = f'https://maps.googleapis.com/maps/api/geocode/json?key={maps_api_key}&address='
 
 with open(sys.argv[1]) as f:
